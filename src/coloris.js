@@ -943,7 +943,7 @@ return ((window, document, Math, undefined) => {
       '<span></span>'+
     '</div>'+
     '<div id="clr-format" class="clr-format">'+
-      '<fieldset class="clr-segmented">'+
+      '<div class="clr-segmented">'+
         `<legend>${settings.a11y.format}</legend>`+
         '<input id="clr-f1" type="radio" name="clr-format" value="hex">'+
         '<label for="clr-f1">Hex</label>'+
@@ -952,7 +952,7 @@ return ((window, document, Math, undefined) => {
         '<input id="clr-f3" type="radio" name="clr-format" value="hsl">'+
         '<label for="clr-f3">HSL</label>'+
         '<span></span>'+
-      '</fieldset>'+
+      '</div>'+
     '</div>'+
     '<div id="clr-swatches" class="clr-swatches"></div>'+
     `<button type="button" id="clr-clear" class="clr-clear" aria-label="${settings.a11y.clear}">${settings.clearLabel}</button>`+
