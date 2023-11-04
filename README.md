@@ -3,6 +3,11 @@
 ![Maven](https://img.shields.io/maven-central/v/org.webjars.npm/melloware__coloris)
 [![@melloware/coloris](https://snyk.io/advisor/npm-package/@melloware/coloris/badge.svg)](https://snyk.io/advisor/npm-package/@melloware/coloris)
 
+
+# 说明
+
+由于原库使用了 fieldest 标签，fieldest 标签在 chorome 79 版本不支持 flex 布局，所以fork一份，修改一下容器
+
 # Coloris NPM
 
 A lightweight and elegant JavaScript color picker written in vanilla ES6.  
